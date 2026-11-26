@@ -1,0 +1,36 @@
+{
+  "thời điểm khóa (UTC)": "2026-11-26T05:45:00.995024+00:00",
+  "thời điểm khóa (cục bộ)": "2026-11-26T12:45:00.995049+07:00",
+  "người chạy": "ThanhT",
+  "máy": "KL-CW04M74",
+  "RUN_STAGE": "final",
+  "sha256 mô hình": {
+    "model_bundle.joblib": "fbef3efb8b25d856de71c4d5f0ed5092dda3eb205573751a1ed1e3c8c2680970",
+    "freeze_config.json": "1f905a0b2fe1b32e96ee4bb1d073eeef3861c9b4f34d45169a3eb280665142da"
+  },
+  "sha256 dự báo mô hình (đối chiếu)": "5e520e9ce6f5c4b06308645f1f528be6f0e0a96982b2880b2675412a7036aa47",
+  "sha256 cấu hình + cổng phát hành": "6f001f96b009d692d8fdf40c1c1411554ab148841a65649195100d0c79f93b16",
+  "sha256 dữ liệu đầu vào": {
+    "transaction_data.csv": "3a685c0729cef664d634486189f774518b84f53cde7cbf701a5963238692b476",
+    "campaign_desc.csv": "632535c6bcdd97b5681e84c2c0652ddc4eaca8a0f899a3bb37dae8dbdc089684",
+    "campaign_table.csv": "a716f88953c9ddf8847e191d862e8d022afd19cf7419f52cbe6dde950a121f21",
+    "coupon_redempt.csv": "70a98f3bfb28be0dd850f19c8d806d2a23e44014546651367b21538db6fba1f8",
+    "hh_demographic.csv": "aeb10246d0c4f3d3433d1f441265b6c7e70b0926129b834a3b589517948b9f22",
+    "product.csv": "7ecbcec41e0f1e5a51b43a359965cc50dc5586a2b900a378b64032750fedc949"
+  },
+  "sha256 hàng Locked+OOT (đặc trưng + nhãn)": "8412bafd48b3ce6ad32067e99747e45d262375c8ec4c008c339e94da4ea1eef8",
+  "số hàng Locked/OOT": {
+    "locked": 4628,
+    "oot": 6981
+  },
+  "sha256 mã nguồn": "a24d116eb7aebe57facf48b6ff375c81ed6099f776db0b5cea20fff9249f58fb",
+  "phiên bản": {
+    "python": "3.14.6",
+    "numpy": "2.4.4",
+    "pandas": "3.0.6",
+    "sklearn": "1.9.1",
+    "scipy": "1.17.1"
+  },
+  "cam kết": "Locked Test và OOT chưa được dùng để huấn luyện, chọn siêu tham số, chọn ngưỡng hay chỉnh cổng phát hành trước thời điểm này.",
+  "seal_hash": "eafbec98c7a67629f56ce1b7b2bfffd3788ba96252feec774fd9fb53f1c741f9"
+}
